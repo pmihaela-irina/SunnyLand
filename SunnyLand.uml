@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>PaooGame</OriginalElement>
+  <nodes>
+    <node x="240.0" y="2368.0">PaooGame.Input.MouseInput</node>
+    <node x="0.0" y="1435.0">PaooGame.Game</node>
+    <node x="503.0" y="1435.0">PaooGame.RefLinks</node>
+    <node x="981.0" y="1435.0">PaooGame.GraphicsGame.Animation</node>
+    <node x="773.0000000000001" y="966.0">PaooGame.Items.Cherry</node>
+    <node x="1728.0" y="1435.0">PaooGame.Menu</node>
+    <node x="2144.0" y="977.0">PaooGame.Items.Door</node>
+    <node x="1182.25" y="0.0">PaooGame.Graphics.Entity</node>
+    <node x="1031.0" y="2368.0">PaooGame.GameWindow.GameWindow</node>
+    <node x="1319.0" y="2368.0">PaooGame.Levels</node>
+    <node x="522.0000000000001" y="944.0">PaooGame.Items.MovingBlock</node>
+    <node x="1559.0" y="2368.0">PaooGame.GraphicsGame.BufferedImageLoader</node>
+    <node x="0.0" y="2368.0">PaooGame.Input.KeyManager</node>
+    <node x="1528.0" y="1435.0">PaooGame.GameWindow.Camera</node>
+    <node x="2207.0" y="1435.0">PaooGame.Graphics.EntityFactory</node>
+    <node x="1012.0000000000001" y="977.0">PaooGame.Items.GravityChangeBlock</node>
+    <node x="718.0" y="2368.0">PaooGame.GraphicsGame.SpriteSheet</node>
+    <node x="1300.0" y="900.0">PaooGame.Items.Oposum</node>
+    <node x="1595.0" y="966.0">PaooGame.Items.Diamond</node>
+    <node x="233.0" y="1435.0">PaooGame.GraphicsGame.Texture</node>
+    <node x="515.0" y="2368.0">PaooGame.Items.Block.Type</node>
+    <node x="1972.0" y="1435.0">PaooGame.GameState</node>
+    <node x="2383.0" y="966.0">PaooGame.Items.Heart</node>
+    <node x="762.0" y="1435.0">PaooGame.Graphics.EntityID</node>
+    <node x="241.0" y="955.0">PaooGame.Items.Bullet</node>
+    <node x="1834.0" y="746.0">PaooGame.Items.Player</node>
+    <node x="1317.0" y="1435.0">PaooGame.Input.AudioPlayer</node>
+    <node x="0.0" y="966.0">PaooGame.Items.Block</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="PaooGame.Items.GravityChangeBlock" target="PaooGame.Graphics.Entity">
+      <point x="0.0" y="-91.0" />
+      <point x="1146.0" y="726.0" />
+      <point x="1280.8000000000002" y="726.0" />
+      <point x="-10.950000000000045" y="333.0" />
+    </edge>
+    <edge source="PaooGame.Items.Block" target="PaooGame.Graphics.Entity">
+      <point x="0.0" y="-102.0" />
+      <point x="110.5" y="686.0" />
+      <point x="1193.2000000000003" y="686.0" />
+      <point x="-98.54999999999995" y="333.0" />
+    </edge>
+    <edge source="PaooGame.Items.MovingBlock" target="PaooGame.Graphics.Entity">
+      <point x="0.0" y="-124.0" />
+      <point x="637.5000000000001" y="706.0" />
+      <point x="1237.0" y="706.0" />
+      <point x="-54.75" y="333.0" />
+    </edge>
+    <edge source="PaooGame.Items.Cherry" target="PaooGame.Graphics.Entity">
+      <point x="0.0" y="-102.0" />
+      <point x="882.5000000000001" y="716.0" />
+      <point x="1258.9" y="716.0" />
+      <point x="-32.84999999999991" y="333.0" />
+    </edge>
+    <edge source="PaooGame.Items.Bullet" target="PaooGame.Graphics.Entity">
+      <point x="0.0" y="-113.0" />
+      <point x="371.5" y="696.0" />
+      <point x="1215.1" y="696.0" />
+      <point x="-76.65000000000009" y="333.0" />
+    </edge>
+    <edge source="PaooGame.Items.Heart" target="PaooGame.Graphics.Entity">
+      <point x="0.0" y="-102.0" />
+      <point x="2492.5" y="686.0" />
+      <point x="1390.3000000000002" y="686.0" />
+      <point x="98.54999999999995" y="333.0" />
+    </edge>
+    <edge source="PaooGame.Items.Oposum" target="PaooGame.Graphics.Entity">
+      <point x="0.0" y="-168.0" />
+      <point x="1437.5" y="726.0" />
+      <point x="1302.7000000000003" y="726.0" />
+      <point x="10.950000000000045" y="333.0" />
+    </edge>
+    <edge source="PaooGame.Items.Player" target="PaooGame.Graphics.Entity">
+      <point x="0.0" y="-322.0" />
+      <point x="1979.0" y="706.0" />
+      <point x="1346.5" y="706.0" />
+      <point x="54.75" y="333.0" />
+    </edge>
+    <edge source="PaooGame.Items.Door" target="PaooGame.Graphics.Entity">
+      <point x="0.0" y="-91.0" />
+      <point x="2253.5" y="696.0" />
+      <point x="1368.4" y="696.0" />
+      <point x="76.65000000000009" y="333.0" />
+    </edge>
+    <edge source="PaooGame.Items.Diamond" target="PaooGame.Graphics.Entity">
+      <point x="0.0" y="-102.0" />
+      <point x="1704.5" y="716.0" />
+      <point x="1324.6" y="716.0" />
+      <point x="32.84999999999991" y="333.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.6964881163533168" x="716.2229588932794" y="2537.5798227719256" />
+  <SelectedNodes>
+    <node>PaooGame.Input.AudioPlayer</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
